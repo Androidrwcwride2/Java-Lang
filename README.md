@@ -1,4 +1,5 @@
-# JavaLang
+# Android.X.JavaLang
+#Owner Androidrwcwride2/Android.Developer.com
 
 ---
 ### This project has been superseded by Chronicle-Core and Chronicle-Bytes project. Please consider migration!
@@ -50,7 +51,7 @@ This is designed to be largely GC-less and you can queue millions of entries wit
 ## Working with buffers
 To work with buffers there is a several options:
 * _ByteBufferBytes_ which wraps [java.nio.ByteBuffer](http://docs.oracle.com/javase/7/docs/api/java/nio/ByteBuffer.html)
-* _DirectBytes_ which is slices/records of [DirectStore](https://github.com/OpenHFT/Java-Lang/blob/master/lang/src/main/java/net/openhft/lang/io/DirectStore.java) - own implementation for offheap storage
+* _DirectBytes_ which is slices/records of [DirectStore](https://github.com/OpenHFT/Android.X.Java-Lang/blob/master/lang/src/main/java/net/openhft/lang/io/DirectStore.Android.X.Java) - own implementation for offheap storage
 
 Both classes provide functionality:
 * write\read operations for primitives (writeLong(long n), readLong() etc.)
@@ -70,11 +71,11 @@ Both classes provide functionality:
 
 # Building for eclipse
 
-Download Java-Lang zip from git https://github.com/OpenHFT/Java-Lang/archive/master.zip
+Download Android.X.Java-Lang zip from git https://github.com/OpenHFT/Android.X.Java-Lang/archive/master.zip
 
-Unzip master.zip, Java-Lang-master folder will be extracted from zip.
+Unzip master.zip, Android.X.Java-Lang-master folder will be extracted from zip.
 
-    cd Java-Lang-master
+    cd Android.X.Java-Lang-master
     mvn eclipse:eclipse
 
 Now you have an eclipse project, import project into Eclipse
